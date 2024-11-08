@@ -7,6 +7,7 @@ Buscar Livro: Permite buscar livros no catálogo com base em título, autor, gê
 Avaliar Livro: Cada livro pode ser avaliado de 1 a 5, e a média das avaliações é exibida.
 Remover Livro: Remove um livro do catálogo.
 Persistência de Dados: Utiliza localStorage para armazenar o catálogo no navegador em formato JSON.
+
 🚀 Tecnologias Utilizadas
 HTML: Estrutura do projeto e formulário de entrada.
 CSS: Estilização da interface, com foco em responsividade e experiência do usuário.
