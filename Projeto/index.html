@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catálogo de Livros</title>
+    <link rel="stylesheet" href="/Projeto/style.css">
+</head>
+<body>
+    <h1>Catálogo de Livros</h1>
+    <form id="formLivro">
+        <input type="text" id="titulo" placeholder="Título" required>
+        <input type="text" id="autor" placeholder="Autor" required>
+        <input type="text" id="genero" placeholder="Gênero" required>
+        <input type="number" id="ano" placeholder="Ano de Publicação" required>
+        <button type="submit">Adicionar Livro</button>
+    </form>
+    
+    <div class="search-container">
+        <input type="text" id="busca" placeholder="Buscar por título, autor, gênero ou ano">
+        <button id="buscarLivro">Buscar</button>
+        <button id="listarLivros">Listar Todos</button>
+    </div>
+    
+    <div id="listaLivros"></div>
+
+    <script src="/Projeto/script.js"></script>
+</body>
+</html>
